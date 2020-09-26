@@ -44,6 +44,21 @@ const App = (props) => {
     );
   }
 
+  const renderClearButton = () => {
+    if (props.reminders.length > 0) {
+      return (
+        <div
+          id="delete"
+          className="btn btn-outline-danger"
+          onClick={() => props.clearReminders()}
+        >
+          Clear Reminders
+        </div>
+      );
+    }
+    return "";
+  };
+
   return (
     <div className="App">
       <div className="title">Reminders</div>
@@ -72,13 +87,7 @@ const App = (props) => {
         </button>
       </div>
       {renderReminders()}
-      <div
-        id="delete"
-        className="btn btn-outline-danger"
-        onClick={() => props.clearReminders()}
-      >
-        Clear Reminders
-      </div>
+      {renderClearButton()}
     </div>
   );
 };
