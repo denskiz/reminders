@@ -1,0 +1,2 @@
+body,html{height:100%;width:100%;margin:0;color:#000;background-color:#554f4f}.App{padding-top:20px;display:flex;flex-direction:column;align-items:center}.title{font-family:"Nanum Brush Script",cursive;text-align:center;font-size:50px;font-weight:700;color:#fff}input{margin:5px}.reminder-form,input{padding:5px}.list-item{display:inline-block}#delete{margin-top:10px}#delete,#other,#reminder{cursor:pointer}#other{float:right;padding-left:5px}
+/*# sourceMappingURL=main.01bc5a7a.chunk.css.map */
