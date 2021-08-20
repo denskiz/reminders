@@ -88,6 +88,7 @@ const App: React.FC = () => {
         </div>
         <br />
         <div className="row justify-content-md-center">{renderReminders()}</div>
+        <br />
         <div className="text-center">
           <a
             href="https://github.com/denskiz/reminders"
